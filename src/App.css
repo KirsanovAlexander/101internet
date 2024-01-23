@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: local('Museo Sans Cyrl'), 
+  /* font-style: normal; */
+  /* url('./fonts/MuseoSansCyrl900/MuseoSansCyrl900.woff') format('woff'); */
+}
+
+body {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+  width: 320px;
+  color: #F5F6F9;
+}
+
+button{
+  border: none;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-border {
+  margin-top: 15px;
+  position: absolute;
+  width: 280px;
+  height: 900px;
+  top: 303px;
+  left: 20px;
+  border: 2px solid #5813FE; /* Цвет рамки, вы можете заменить #000 на нужный вам цвет */
+  border-radius: 15px; /* Задайте радиус скругления углов */
+  /* box-sizing: border-box; Учитывать границу внутри размеров блока */
+}
+
+.description__title{
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 45px;
+  font-size: 16px;
+  color: #2C1D5D;
+  font-weight: 600;
+};
+
+.line{
+
+}
+
+hr{
+  margin-left: 20px;
+  width: 48px;            /* Длина строки */            /* Высота строки (так как это граница) */
+  border: 2px solid #5813FE; /* Граница толщиной 2 пикселя и цвета фиолетового */
+  margin: 15px 18px;          /* Дополнительный отступ сверху и снизу (по вашему желанию) */
+}
+
+.description__text{
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #8E87A3;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.description__text__marginTop{
+  margin-top: -13px;
+}
+
+.rate{
+  margin-top: 25px;
+}
+
+.MyRate{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  size: 18px;
+  color: #5813FE;
+  text-align: center;
+}
+
+.unit{
+  display: flex;
+  text-align: center;
+}
+
+.unit__text{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 150px;
+  color: #8E87A3;
+  margin-top: 17px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.rate_charter{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.fix{
+  display: flex;
+}
+
+.checkbox{
+  margin-left: 65px;
+  width: 25px;
+  height: 25px;
+  border-radius: 1px;
+  border: 1px;
+}
+
+.fix__text{
+  color: #8E87A3;
+  margin-left: 10px;
+}
+
+.rate_charter{
+  margin-top: 25px;
+}
+
+.button__minus{
+  margin-left: 22px;
+}
+
+.button__plus{
+  margin-right: 22px;
+}
+
+.socialNetwork{
+margin-top: 25px;
+}
+
+.network__text{
+  color: #8E87A3;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.social-icon{
+  margin-top: 10px;
+  margin-right: 4px;
+}
+
+.button__moreDetails{
+  margin-top: 15px;
+  margin-bottom: 35px;
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  background-color: #5813FE;
+  border-radius: 10px;
+}
+
